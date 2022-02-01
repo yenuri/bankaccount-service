@@ -26,7 +26,7 @@ public class BankAccountController {
     }
 
     @GetMapping("/{id}")
-    public Mono<BankAccount> finById(String id) {
+    public Mono<BankAccount> finById(@PathVariable String id) {
         log.info("<<<<< Find One BankAccount >>>>>");
         return bankAccountService.findById(id);
     }

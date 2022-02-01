@@ -5,11 +5,13 @@ import com.bootcamp.bankaccount.model.BankAccount;
 import com.bootcamp.bankaccount.repository.IBankAccountRepository;
 import com.bootcamp.bankaccount.utils.BankAccountStatus;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.util.Calendar;
 
+@Service
 public class BankAccountServiceImpl implements IBankAccountService {
 
     @Autowired

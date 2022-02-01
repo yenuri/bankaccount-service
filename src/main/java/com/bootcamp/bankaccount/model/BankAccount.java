@@ -20,7 +20,7 @@ public class BankAccount {
     private String id;
     private AccountType accountType;
     private Double commission;
-    private Long NumTransactions;
+    private Long numTransactions;
     private Customer customer;
     private Date createAt;
     private Double balance;
