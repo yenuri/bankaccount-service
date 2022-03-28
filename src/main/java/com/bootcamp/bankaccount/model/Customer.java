@@ -10,6 +10,4 @@ public class Customer {
     private String dni;
     private String customerType;
     private String status;
-    private String name;
-    private String lastName;
 }
